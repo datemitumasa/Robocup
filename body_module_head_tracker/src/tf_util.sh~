@@ -1,0 +1,2 @@
+git clone https://git.hsr.io/isyslab/tf_util.git
+cp tf_util/tf_utils.py ./

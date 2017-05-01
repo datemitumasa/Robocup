@@ -1,0 +1,9 @@
+#goal
+int32 time
+float64 force
+---
+#result
+bool success
+---
+#feedback
+float64 nowforce

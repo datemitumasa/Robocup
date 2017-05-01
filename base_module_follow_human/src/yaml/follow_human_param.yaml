@@ -1,0 +1,18 @@
+#60
+max_angle: 1.05
+#-60
+min_angle: -1.05
+#クリアランス[m]
+clearance: 0.7
+#回転スピード[rad/s]
+rot_speed: 0.4
+#通常追跡の最大速度[m/s]
+fow_speed: 0.30
+#速度が閾値以下の場合はこの速度[m/s]になる
+min_speed: 0.08
+#障害物と人との距離がこれ以下[m]になると、aboid_funcを実行する
+obstacle_distance: 0.8
+#障害物がある場合に、回避行動するまでのカウント数
+obstacle_count_threshold: 1
+#pathプランで障害物を避ける時間[s]（pathを生成する時間を含む）
+avoid_time: 8.0

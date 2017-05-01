@@ -1,0 +1,10 @@
+string MOVE = move
+string GO   = go
+string MOVE_ODOM = odom
+string  command_name
+float64 x
+float64 y
+float64 yaw
+float64 timeout_sec
+---
+bool success

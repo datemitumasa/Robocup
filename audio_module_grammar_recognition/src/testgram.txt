@@ -1,0 +1,23 @@
+[GRAMMAR]
+worder1: I want $noun_drink
+worder2: I want $noun_obj and $noun_drink
+worder3: I want $noun_drink and $noun_obj
+order3: $noun_drink and $noun_obj *
+order2: $noun_obj and $noun_drink *
+order1: $noun_drink *
+
+[NOUN]
+$noun_drink
+green tea: green tea
+iced tea: iced tea
+orange juice: orange juice
+strawberry juice: strawberry juice
+
+$noun_obj
+potato chips: potato chips
+cookie: cookie
+potato stick: potato stick
+potage soup: potages oup
+egg soup: egg soup
+orange: orange
+apple: apple

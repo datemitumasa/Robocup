@@ -1,0 +1,21 @@
+[GRAMMAR]
+hello : $noun_hello
+take : $noun_drink * $noun_person * <持って行って|届けて>
+find : 人 * 探して
+
+
+[NOUN]
+$noun_hello
+hello : こんにちは
+bye : さようなら
+morning : おはよう
+
+$noun_drink
+drink1 : ジュース
+drink2 : コーヒー
+drink3 : お茶
+
+$noun_person
+person1 : 中村|中村さん
+person2 : 田中
+person3 : 太郎

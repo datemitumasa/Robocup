@@ -1,0 +1,3 @@
+<launch>
+  <node pkg='audio_module_grammar_recognition' name='GrammarRecognition' type='GrammarBasedLU.py'/>
+</launch>

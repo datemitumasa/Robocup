@@ -1,0 +1,13 @@
+#goal
+float64 threshold_x
+float64 threshold_y
+float64 threshold_rotate
+geometry_msgs/Pose[] path_list
+---
+#result
+bool success
+---
+#feedback
+std_msgs/Header header
+geometry_msgs/Pose now_pose
+geometry_msgs/Pose now_goal

@@ -1,0 +1,4 @@
+#人として認識できる足の幅の最大値
+leg_pair_separation: 0.7
+#人として認識する、確からしさの最小値
+leg_reliability_limit: 0.8

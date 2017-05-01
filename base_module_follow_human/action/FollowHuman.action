@@ -1,0 +1,7 @@
+int32 avoid_function
+float64 x
+float64 y
+---
+bool success
+---
+geometry_msgs/PoseStamped human_position
